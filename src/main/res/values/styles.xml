@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NavigationView"><attr name="android:background"/><attr name="android:fitsSystemWindows"/><attr name="android:maxWidth"/><attr name="elevation"/><attr format="reference" name="menu"/><attr format="color" name="itemIconTint"/><attr format="color" name="itemTextColor"/><attr format="reference" name="itemBackground"/><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="headerLayout"/></declare-styleable>
+    <declare-styleable name="BottomNavigationView"><attr name="menu"/><attr name="itemIconTint"/><attr name="itemTextColor"/><attr name="itemBackground"/><attr name="elevation"/></declare-styleable>
+    <style name="Widget.Design.BottomNavigationView" parent="">
+        <item name="itemBackground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="elevation">@dimen/design_bottom_navigation_elevation</item>
+    </style>
+    <style name="Widget.Design.NavigationView" parent="">
+        <item name="elevation">@dimen/design_navigation_elevation</item>
+        <item name="android:background">?android:attr/windowBackground</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:maxWidth">@dimen/design_navigation_max_width</item>
+    </style>
+</resources>

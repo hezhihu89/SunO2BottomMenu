@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\SunO2\\SunO2\\Code\\SunO2-Android\\SunO2\\library\\bottomnavigationview\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Hezhihu89\\.android\\build-cache\\864df18ddbbeab1c405fe02082e48fd17a7a124f\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\SunO2\\SunO2\\Code\\SunO2-Android\\SunO2\\library\\bottomnavigationview\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Hezhihu89\\.android\\build-cache\\864df18ddbbeab1c405fe02082e48fd17a7a124f\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\SunO2\\SunO2\\Code\\SunO2-Android\\SunO2\\library\\bottomnavigationview\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Hezhihu89\\.android\\build-cache\\864df18ddbbeab1c405fe02082e48fd17a7a124f\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\SunO2\\SunO2\\Code\\SunO2-Android\\SunO2\\library\\bottomnavigationview\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Hezhihu89\\.android\\build-cache\\864df18ddbbeab1c405fe02082e48fd17a7a124f\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\SunO2\\SunO2\\Code\\SunO2-Android\\SunO2\\library\\bottomnavigationview\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Hezhihu89\\.android\\build-cache\\864df18ddbbeab1c405fe02082e48fd17a7a124f\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\SunO2\\SunO2\\Code\\SunO2-Android\\SunO2\\library\\bottomnavigationview\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Hezhihu89\\.android\\build-cache\\864df18ddbbeab1c405fe02082e48fd17a7a124f\\output\\res\\layout-v11\\notification_media_action.xml"
+    }
+]

@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 2.3.0">
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_shadow_color`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_shadow_color`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;color name=&quot;design_bottom_navigation_shadow_color&quot;>#14000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\color.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_appbar_elevation`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_appbar_elevation`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_appbar_elevation&quot;>4dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_active_item_max_width`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_active_item_max_width`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_active_item_max_width&quot;>168dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_active_text_size`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_active_text_size`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_active_text_size&quot;>14sp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_elevation`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_elevation`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_elevation&quot;>8dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_height`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_height`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_height&quot;>56dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_item_max_width`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_item_max_width`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_item_max_width&quot;>96dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_item_min_width`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_item_min_width`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_item_min_width&quot;>56dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_margin`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_margin`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_margin&quot;>8dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="10"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_shadow_height`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_shadow_height`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_shadow_height&quot;>1dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="11"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_navigation_text_size`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_navigation_text_size`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_text_size&quot;>12sp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="12"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_sheet_modal_elevation`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_sheet_modal_elevation`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_sheet_modal_elevation&quot;>16dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="13"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_bottom_sheet_peek_height_min`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_bottom_sheet_peek_height_min`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_sheet_peek_height_min&quot;>64dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="14"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_fab_border_width`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_fab_border_width`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_fab_border_width&quot;>0.5dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="15"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_fab_elevation`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_fab_elevation`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_fab_elevation&quot;>6dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="16"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_fab_image_size`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_fab_image_size`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_fab_image_size&quot;>24dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="17"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_fab_size_mini`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_fab_size_mini`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_fab_size_mini&quot;>40dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="18"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_fab_size_normal`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_fab_size_normal`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_fab_size_normal&quot;>56dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="19"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_fab_translation_z_pressed`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_fab_translation_z_pressed`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_fab_translation_z_pressed&quot;>6dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="20"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_navigation_elevation`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_navigation_elevation`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_elevation&quot;>16dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="21"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_navigation_icon_padding`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_navigation_icon_padding`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_icon_padding&quot;>32dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="22"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_navigation_icon_size`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_navigation_icon_size`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_icon_size&quot;>24dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="23"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_navigation_max_width`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_navigation_max_width`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_max_width&quot;>280dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="24"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_navigation_padding_bottom`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_navigation_padding_bottom`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_padding_bottom&quot;>8dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="25"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`design_navigation_separator_vertical_padding`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewDesign_navigation_separator_vertical_padding`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_separator_vertical_padding&quot;>8dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="26"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`app_name`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewApp_name`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;string name=&quot;app_name&quot;>BottomNavigationView&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\strings.xml"
+            line="2"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`NavigationView`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`BottonNavigationViewNavigationView`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;NavigationView&quot;>&lt;attr name=&quot;android:background&quot;/>&lt;attr name=&quot;android:fitsSystemWindows&quot;/>&lt;attr name=&quot;android:maxWidth&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;menu&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemIconTint&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemTextColor&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemBackground&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemTextAppearance&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;headerLayout&quot;/>&lt;/declare-styleable>"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="3"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`elevation`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewElevation`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;NavigationView&quot;>&lt;attr name=&quot;android:background&quot;/>&lt;attr name=&quot;android:fitsSystemWindows&quot;/>&lt;attr name=&quot;android:maxWidth&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;menu&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemIconTint&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemTextColor&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemBackground&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemTextAppearance&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;headerLayout&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                                           ~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="3"
+            column="156"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`headerLayout`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewHeaderLayout`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;NavigationView&quot;>&lt;attr name=&quot;android:background&quot;/>&lt;attr name=&quot;android:fitsSystemWindows&quot;/>&lt;attr name=&quot;android:maxWidth&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;menu&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemIconTint&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemTextColor&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemBackground&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemTextAppearance&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;headerLayout&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="3"
+            column="422"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`itemBackground`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewItemBackground`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;NavigationView&quot;>&lt;attr name=&quot;android:background&quot;/>&lt;attr name=&quot;android:fitsSystemWindows&quot;/>&lt;attr name=&quot;android:maxWidth&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;menu&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemIconTint&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemTextColor&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemBackground&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemTextAppearance&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;headerLayout&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="3"
+            column="322"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`itemIconTint`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewItemIconTint`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;NavigationView&quot;>&lt;attr name=&quot;android:background&quot;/>&lt;attr name=&quot;android:fitsSystemWindows&quot;/>&lt;attr name=&quot;android:maxWidth&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;menu&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemIconTint&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemTextColor&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemBackground&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemTextAppearance&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;headerLayout&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="3"
+            column="233"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`itemTextAppearance`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewItemTextAppearance`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;NavigationView&quot;>&lt;attr name=&quot;android:background&quot;/>&lt;attr name=&quot;android:fitsSystemWindows&quot;/>&lt;attr name=&quot;android:maxWidth&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;menu&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemIconTint&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemTextColor&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemBackground&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemTextAppearance&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;headerLayout&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="3"
+            column="370"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`itemTextColor`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewItemTextColor`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;NavigationView&quot;>&lt;attr name=&quot;android:background&quot;/>&lt;attr name=&quot;android:fitsSystemWindows&quot;/>&lt;attr name=&quot;android:maxWidth&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;menu&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemIconTint&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemTextColor&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemBackground&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemTextAppearance&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;headerLayout&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                                                                                                                                                                  ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="3"
+            column="275"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`menu`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewMenu`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;NavigationView&quot;>&lt;attr name=&quot;android:background&quot;/>&lt;attr name=&quot;android:fitsSystemWindows&quot;/>&lt;attr name=&quot;android:maxWidth&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;menu&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemIconTint&quot;/>&lt;attr format=&quot;color&quot; name=&quot;itemTextColor&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemBackground&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;itemTextAppearance&quot;/>&lt;attr format=&quot;reference&quot; name=&quot;headerLayout&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                                                                                      ~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="3"
+            column="199"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`BottomNavigationView`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`BottonNavigationViewBottomNavigationView`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;BottomNavigationView&quot;>&lt;attr name=&quot;menu&quot;/>&lt;attr name=&quot;itemIconTint&quot;/>&lt;attr name=&quot;itemTextColor&quot;/>&lt;attr name=&quot;itemBackground&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;/declare-styleable>"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="4"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`elevation`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewElevation`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;BottomNavigationView&quot;>&lt;attr name=&quot;menu&quot;/>&lt;attr name=&quot;itemIconTint&quot;/>&lt;attr name=&quot;itemTextColor&quot;/>&lt;attr name=&quot;itemBackground&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                                                ~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="4"
+            column="161"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`itemBackground`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewItemBackground`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;BottomNavigationView&quot;>&lt;attr name=&quot;menu&quot;/>&lt;attr name=&quot;itemIconTint&quot;/>&lt;attr name=&quot;itemTextColor&quot;/>&lt;attr name=&quot;itemBackground&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                                                   ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="4"
+            column="132"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`itemIconTint`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewItemIconTint`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;BottomNavigationView&quot;>&lt;attr name=&quot;menu&quot;/>&lt;attr name=&quot;itemIconTint&quot;/>&lt;attr name=&quot;itemTextColor&quot;/>&lt;attr name=&quot;itemBackground&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="4"
+            column="77"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`itemTextColor`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewItemTextColor`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;BottomNavigationView&quot;>&lt;attr name=&quot;menu&quot;/>&lt;attr name=&quot;itemIconTint&quot;/>&lt;attr name=&quot;itemTextColor&quot;/>&lt;attr name=&quot;itemBackground&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                                                                       ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="4"
+            column="104"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`menu`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`bottonNavigationViewMenu`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;declare-styleable name=&quot;BottomNavigationView&quot;>&lt;attr name=&quot;menu&quot;/>&lt;attr name=&quot;itemIconTint&quot;/>&lt;attr name=&quot;itemTextColor&quot;/>&lt;attr name=&quot;itemBackground&quot;/>&lt;attr name=&quot;elevation&quot;/>&lt;/declare-styleable>"
+        errorLine2="                                                         ~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="4"
+            column="58"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`Widget.Design.BottomNavigationView`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`BottonNavigationViewWidget.Design.BottomNavigationView`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;style name=&quot;Widget.Design.BottomNavigationView&quot; parent=&quot;&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ResourceName"
+        severity="Fatal"
+        message="Resource named &apos;`Widget.Design.NavigationView`&apos; does not start with the project&apos;s resource prefix &apos;`bottonNavigationView`&apos;; rename to &apos;`BottonNavigationViewWidget.Design.NavigationView`&apos; ?"
+        category="Correctness"
+        priority="8"
+        summary="Resource with Wrong Prefix"
+        explanation="In Gradle projects you can specify a resource prefix that all resources in the project must conform to. This makes it easier to ensure that you don&apos;t accidentally combine resources from different libraries, since they all end up in the same shared app namespace."
+        errorLine1="    &lt;style name=&quot;Widget.Design.NavigationView&quot; parent=&quot;&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="Old buildToolsVersion 25.0.2; recommended version is 25.0.3 or later"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    buildToolsVersion &quot;25.0.2&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\build.gradle"
+            line="6"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.android.support:appcompat-v7 than 25.3.0 is available: 25.3.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    compile &apos;com.android.support:appcompat-v7:25.3.0&apos;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\build.gradle"
+            line="34"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.android.support:design than 25.3.0 is available: 25.3.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    compile &apos;com.android.support:design:25.3.0&apos;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\build.gradle"
+            line="36"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TextScale constructor can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        TextScale textScale = new TextScale();"
+        errorLine2="                              ~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationAnimationHelperIcs.java"
+            line="36"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.getItemPosition can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="                final int itemPosition = itemView.getItemPosition();"
+        errorLine2="                                                  ~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="88"
+            column="51"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.getItemData can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="                if (!mMenu.performItemAction(itemView.getItemData(), mPresenter, 0)) {"
+        errorLine2="                                                      ~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="89"
+            column="55"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.performItemAction can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="                if (!mMenu.performItemAction(itemView.getItemData(), mPresenter, 0)) {"
+        errorLine2="                           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="89"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.setIconTintList can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            item.setIconTintList(tint);"
+        errorLine2="                 ~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="188"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.setTextColor can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            item.setTextColor(color);"
+        errorLine2="                 ~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="211"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.setItemBackground can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            item.setItemBackground(background);"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="233"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.size can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        if (mMenu.size() == 0) {"
+        errorLine2="                  ~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="257"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.size can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        mButtons = new BottomNavigationItemView[mMenu.size()];"
+        errorLine2="                                                      ~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="261"
+            column="55"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.size can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        mShiftingMode = mMenu.size() > 4;"
+        errorLine2="                              ~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="262"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.size can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        for (int i = 0; i &lt; mMenu.size(); i++) {"
+        errorLine2="                                  ~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="263"
+            column="35"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.getItem can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            mMenu.getItem(i).setCheckable(true);"
+        errorLine2="                  ~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="265"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.setIconTintList can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            child.setIconTintList(mItemIconTint);"
+        errorLine2="                  ~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="269"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.setTextColor can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            child.setTextColor(mItemTextColor);"
+        errorLine2="                  ~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="270"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.setItemBackground can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            child.setItemBackground(mItemBackgroundRes);"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="271"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.setShiftingMode can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            child.setShiftingMode(mShiftingMode);"
+        errorLine2="                  ~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="272"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.initialize can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            child.initialize((MenuItemImpl) mMenu.getItem(i), 0);"
+        errorLine2="                  ~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="273"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.getItem can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            child.initialize((MenuItemImpl) mMenu.getItem(i), 0);"
+        errorLine2="                                                  ~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="273"
+            column="51"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.setItemPosition can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            child.setItemPosition(i);"
+        errorLine2="                  ~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="274"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.size can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        mActiveButton = Math.min(mMenu.size() - 1, mActiveButton);"
+        errorLine2="                                       ~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="278"
+            column="40"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.getItem can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        mMenu.getItem(mActiveButton).setChecked(true);"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="279"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.size can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        final int menuSize = mMenu.size();"
+        errorLine2="                                   ~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="283"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.getItem can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            if (mMenu.getItem(i).isChecked()) {"
+        errorLine2="                      ~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="291"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView.initialize can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            mButtons[i].initialize((MenuItemImpl) mMenu.getItem(i), 0);"
+        errorLine2="                        ~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="294"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.getItem can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            mButtons[i].initialize((MenuItemImpl) mMenu.getItem(i), 0);"
+        errorLine2="                                                        ~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="294"
+            column="57"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.getItem can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        mMenu.getItem(newButton).setChecked(true);"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="304"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="BottomNavigationItemView constructor can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            item = new BottomNavigationItemView(getContext());"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationMenuView.java"
+            line="312"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.addMenuPresenter can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        mMenu.addMenuPresenter(mPresenter);"
+        errorLine2="              ~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="122"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        TintTypedArray a = TintTypedArray.obtainStyledAttributes(context, attrs,"
+        errorLine2="                           ~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="126"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.hasValue can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        if (a.hasValue(R.styleable.BottomNavigationView_itemIconTint)) {"
+        errorLine2="              ~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="130"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.getColorStateList can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="                    a.getColorStateList(R.styleable.BottomNavigationView_itemIconTint));"
+        errorLine2="                      ~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="132"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.hasValue can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        if (a.hasValue(R.styleable.BottomNavigationView_itemTextColor)) {"
+        errorLine2="              ~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="137"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.getColorStateList can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="                    a.getColorStateList(R.styleable.BottomNavigationView_itemTextColor));"
+        errorLine2="                      ~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="139"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.hasValue can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        if (a.hasValue(R.styleable.BottomNavigationView_elevation)) {"
+        errorLine2="              ~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="144"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.getDimensionPixelSize can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            ViewCompat.setElevation(this, a.getDimensionPixelSize("
+        errorLine2="                                            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="145"
+            column="45"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.getResourceId can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        int itemBackground = a.getResourceId(R.styleable.BottomNavigationView_itemBackground, 0);"
+        errorLine2="                               ~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="149"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.hasValue can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        if (a.hasValue(R.styleable.BottomNavigationView_menu)) {"
+        errorLine2="              ~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="152"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.getResourceId can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            inflateMenu(a.getResourceId(R.styleable.BottomNavigationView_menu, 0));"
+        errorLine2="                          ~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="153"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="TintTypedArray.recycle can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        a.recycle();"
+        errorLine2="          ~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="155"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="MenuBuilder.setCallback can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="        mMenu.setCallback(new MenuBuilder.Callback() {"
+        errorLine2="              ~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="162"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        severity="Error"
+        message="SupportMenuInflater constructor can only be called from within the same library group (groupId=com.android.support)"
+        category="Correctness"
+        priority="4"
+        summary="Restricted API"
+        explanation="This API has been flagged with a restriction that has not been met.&#xA;&#xA;Examples of API restrictions:&#xA;* Method can only be invoked by a subclass&#xA;* Method can only be accessed from within the same library (defined by  the Gradle library group id)&#xA;.* Method can only be accessed from tests.&#xA;.&#xA;You can add your own API restrictions with the `@RestrictTo` annotation."
+        errorLine1="            mMenuInflater = new SupportMenuInflater(getContext());"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="325"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_itemIconTint` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        if (a.hasValue(R.styleable.BottomNavigationView_itemIconTint)) {"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="130"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_itemIconTint` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="                    a.getColorStateList(R.styleable.BottomNavigationView_itemIconTint));"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="132"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_itemTextColor` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        if (a.hasValue(R.styleable.BottomNavigationView_itemTextColor)) {"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="137"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_itemTextColor` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="                    a.getColorStateList(R.styleable.BottomNavigationView_itemTextColor));"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="139"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_elevation` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        if (a.hasValue(R.styleable.BottomNavigationView_elevation)) {"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="144"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_elevation` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="                    R.styleable.BottomNavigationView_elevation, 0));"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="146"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_itemBackground` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        int itemBackground = a.getResourceId(R.styleable.BottomNavigationView_itemBackground, 0);"
+        errorLine2="                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="149"
+            column="46"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_menu` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        if (a.hasValue(R.styleable.BottomNavigationView_menu)) {"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="152"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@styleable/BottomNavigationView_menu` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="            inflateMenu(a.getResourceId(R.styleable.BottomNavigationView_menu, 0));"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\java\bugke\com\bottomnavigationview\BottomNavigationView.java"
+            line="153"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@color/design_bottom_navigation_shadow_color` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;color name=&quot;design_bottom_navigation_shadow_color&quot;>#14000000&lt;/color>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\color.xml"
+            line="3"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_appbar_elevation` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_appbar_elevation&quot;>4dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="3"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_active_item_max_width` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_active_item_max_width&quot;>168dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="4"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_active_text_size` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_active_text_size&quot;>14sp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="5"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_elevation` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_elevation&quot;>8dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="6"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_height` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_height&quot;>56dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="7"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_item_max_width` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_item_max_width&quot;>96dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="8"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_item_min_width` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_item_min_width&quot;>56dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="9"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_margin` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_margin&quot;>8dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="10"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_shadow_height` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_shadow_height&quot;>1dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="11"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_navigation_text_size` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_navigation_text_size&quot;>12sp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="12"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_sheet_modal_elevation` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_sheet_modal_elevation&quot;>16dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="13"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_bottom_sheet_peek_height_min` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_bottom_sheet_peek_height_min&quot;>64dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="14"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_fab_border_width` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_fab_border_width&quot;>0.5dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="15"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_fab_elevation` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_fab_elevation&quot;>6dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="16"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_fab_image_size` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_fab_image_size&quot;>24dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="17"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_fab_size_mini` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_fab_size_mini&quot;>40dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="18"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_fab_size_normal` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_fab_size_normal&quot;>56dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="19"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_fab_translation_z_pressed` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_fab_translation_z_pressed&quot;>6dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="20"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_navigation_elevation` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_elevation&quot;>16dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="21"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_navigation_icon_padding` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_icon_padding&quot;>32dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="22"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_navigation_icon_size` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_icon_size&quot;>24dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="23"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_navigation_max_width` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_max_width&quot;>280dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="24"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_navigation_padding_bottom` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_padding_bottom&quot;>8dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="25"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@dimen/design_navigation_separator_vertical_padding` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;dimen name=&quot;design_navigation_separator_vertical_padding&quot;>8dp&lt;/dimen>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\dimen.xml"
+            line="26"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@style/Widget_Design_BottomNavigationView` which is marked as private in com.android.support:design. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;style name=&quot;Widget.Design.BottomNavigationView&quot; parent=&quot;&quot;>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="5"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@dimen/design_bottom_navigation_elevation` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        &lt;item name=&quot;elevation&quot;>@dimen/design_bottom_navigation_elevation&lt;/item>"
+        errorLine2="                               ^">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="7"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@dimen/design_navigation_elevation` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        &lt;item name=&quot;elevation&quot;>@dimen/design_navigation_elevation&lt;/item>"
+        errorLine2="                               ^">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="10"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@dimen/design_navigation_max_width` is marked as private in com.android.support:design"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        &lt;item name=&quot;android:maxWidth&quot;>@dimen/design_navigation_max_width&lt;/item>"
+        errorLine2="                                      ^">
+        <location
+            file="D:\SunO2\SunO2\Code\SunO2-Android\SunO2\library\bottomnavigationview\src\main\res\values\styles.xml"
+            line="13"
+            column="39"/>
+    </issue>
+
+</issues>
